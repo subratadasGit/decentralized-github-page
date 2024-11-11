@@ -293,7 +293,7 @@ export default function DeveloperTools() {
                   Deploying...
                 </>
               ) : (
-                "Deploy to HTTP3"
+                "Deploy to SkyGit"
               )}
             </Button>
           </div>

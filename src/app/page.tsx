@@ -54,7 +54,7 @@ export default function Home() {
   
           <Image
             className="mx-auto text-black mb-4"
-            src="/svg/upload-svgrepo-com.svg"
+            src="/svg/cloud.svg"
             alt="HTTP3 logo"
             width={70}
             height={38}
@@ -107,6 +107,9 @@ export default function Home() {
           
           {/* New sections can be added here for Marketplace, Governance, etc. */}
         </main>
+        <footer className="mt-16 text-center text-sm text-muted-foreground">
+          <p>&copy; 2024 SkyGit . All rights reserved.</p>
+        </footer>
         </div>
 
   );
