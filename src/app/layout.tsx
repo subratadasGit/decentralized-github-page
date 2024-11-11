@@ -1,6 +1,5 @@
-'use client';
 
-import {PrivyProvider} from '@privy-io/react-auth';
+
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
