@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <!-- White background -->
+  <rect width="800" height="200" fill="#ffffff"/>
+  
+  <!-- Main circle representing both cloud/sky and git repository -->
+  <circle cx="200" cy="100" r="45" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Branch lines representing both clouds and git branches -->
+  <path d="M245 100 Q275 100 295 80 T345 80" fill="none" stroke="black" stroke-width="3"/>
+  <path d="M245 100 Q275 100 295 120 T345 120" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Modern typography -->
+  <text x="370" y="115" font-family="Arial, sans-serif" font-weight="bold" font-size="60" fill="black">skygit</text>
+  
+  <!-- Dots representing connection points / commits -->
+  <circle cx="345" cy="80" r="6" fill="black"/>
+  <circle cx="345" cy="120" r="6" fill="black"/>
+</svg>

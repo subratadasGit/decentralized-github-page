@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight , BarChart, Cpu, Globe, Network, Search, Zap } from "lucide-react";
 import { Button } from "../components/ui/button";
-import { ModeToggle } from '../components/ModeToggle';
 import DeveloperTools from "@/components/DeveloperTools";
 
 export default function Home() {
@@ -54,11 +53,11 @@ export default function Home() {
   
           <Image
             className="mx-auto text-black mb-4"
-            src="/svg/cloud.svg"
+            src="/svg/ai-explainability-svgrepo-com.svg"
             alt="HTTP3 logo"
             width={70}
             height={38}
-            priority
+            priority style={{ filter: "invert(1)" }}
           />
           <h1 className="text-5xl max-w-3xl mx-auto font-bold mb-4">
             The Future of Web3 Hosting on{" "}
