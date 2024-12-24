@@ -4,8 +4,14 @@ import Link from "next/link";
 import { ArrowRight , BarChart, Cpu, Globe, Network, Search, Zap } from "lucide-react";
 import { Button } from "../components/ui/button";
 import DeveloperTools from "@/components/DeveloperTools";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [isClient, setIsClient] = useState(false) ;
+ 
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
 
   const features = [
     {
@@ -55,7 +61,7 @@ export default function Home() {
             className="mx-auto text-black mb-4"
             src="/svg/ai-explainability-svgrepo-com.svg"
             alt="HTTP3 logo"
-            width={70}
+            width={90}
             height={38}
             priority style={{ filter: "invert(1)" }}
           />
@@ -112,4 +118,5 @@ export default function Home() {
         </div>
 
   );
+  return <h1>{isClient ? 'This is never prerendered' : 'Prerendered'}</h1>
 }

@@ -20,7 +20,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <PrivyProvider
-            appId="cm3dduwjk03t164q8cotvvaxj"
+            appId="cm4bez8x805hmhfa0zfxrjrgp"
             config={{
               appearance: {
                 theme: "dark",
